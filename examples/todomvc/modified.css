@@ -1,0 +1,32 @@
+.edit {
+	border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.todo-list li.editing .edit {
+	display: block;
+  width: unset;
+  padding: unset;
+	margin: unset;
+}
+
+.todo-list li input.edit {
+	white-space: pre-line;
+	word-break: break-all;
+	padding: 15px 60px 15px 15px;
+	margin-left: 45px;
+	display: block;
+	line-height: 1.2;
+  transition: color 0.4s;
+  width: calc(100% - 45px);
+}
+
+li.todo.completed input.edit {
+	color: #d9d9d9;
+	text-decoration: line-through;
+}
+
+.todo-list li .edit {
+  display: inline-block;
+}
