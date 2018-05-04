@@ -5,6 +5,12 @@ It provides data-driven, nestable view components with a simple and flexible API
 
 > _[Vue.js - vuejs.org](https://vuejs.org)_
 
+### Changes from the original (as of 2018-05-03)
+
+This is an attempt to create a more touch friendly version of the example.
+* To-do items are linked only input element; dropped using label element with double-clicking for edits.
+* Removed box-shadow and outline on input boxes to mimic labels.
+
 ## Learning Vue.js
 The [Vue.js website](https://vuejs.org/) is a great resource to get started.
 
